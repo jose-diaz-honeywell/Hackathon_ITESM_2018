@@ -1,0 +1,21 @@
+
+HZ311 changes
+***Software Release 1.2 for HZ311***
+- PA Microcontroller can be used for production
+- PV Microcontroller CAN NOT BE used for production
+- FFT has been updated to 1.2 to match application revision
++ Firmware changes required to implement ATmega169PA change, still pending to update firmware revision and create hex files
++ Misra C options let as they are setup in HZ221 so they are the same, no binary change because of this change
++ hex file modification in the ewp to fit what is used in the PPC, no binary change because of this change
+
+HZ221 changes
+***Software Release 1.1 for HZ221***
+- PA Microcontroller can be used for production
+- PV Microcontroller CAN NOT BE used for production
+Firmware changes required to implement ATmega169PA change, still pending to update firmware revision and create hex files
+
+PPC changes
+***PPc Software Release 1.2 for HZ311***
+***PPC Software Release 1.1 for HZ221***
+
+Still left as PPM3 just to avoid change anything that could affect production programming script, PA version is going to be used instead of PV, cost reduction effort
